@@ -1,0 +1,11 @@
+server:
+  # 不用 8080：避免和工作项目（CIPS 后端）抢端口，两边可以同时跑
+  port: 8090
+
+spring:
+  application:
+    name: ai-lab-server
+
+logging:
+  level:
+    com.ailab: debug

@@ -1,0 +1,17 @@
+:root {
+  font-family: system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 32px;
+}
+
+.error {
+  color: crimson;
+}
